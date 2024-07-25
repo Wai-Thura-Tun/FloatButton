@@ -13,6 +13,12 @@
 		06D506B72C529AF400EB3F8F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06D506B62C529AF400EB3F8F /* Base */; };
 		06D506B92C529AFA00EB3F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D506B82C529AFA00EB3F8F /* Assets.xcassets */; };
 		06D506BC2C529AFA00EB3F8F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06D506BB2C529AFA00EB3F8F /* Base */; };
+		06D506C52C529B4A00EB3F8F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D506C42C529B4A00EB3F8F /* UIButton.swift */; };
+		06D506C82C529BE600EB3F8F /* CoffeeVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D506C72C529BE600EB3F8F /* CoffeeVO.swift */; };
+		06D506CB2C529CE800EB3F8F /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D506CA2C529CE800EB3F8F /* FloatingButton.swift */; };
+		06D506D02C52A5A800EB3F8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D506CF2C52A5A800EB3F8F /* Double.swift */; };
+		06D506D32C52A65400EB3F8F /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D506D12C52A65400EB3F8F /* CoffeeCell.swift */; };
+		06D506D42C52A65400EB3F8F /* CoffeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D506D22C52A65400EB3F8F /* CoffeeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		06D506B82C529AFA00EB3F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D506BB2C529AFA00EB3F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D506BD2C529AFA00EB3F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D506C42C529B4A00EB3F8F /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		06D506C72C529BE600EB3F8F /* CoffeeVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeVO.swift; sourceTree = "<group>"; };
+		06D506CA2C529CE800EB3F8F /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		06D506CF2C52A5A800EB3F8F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		06D506D12C52A65400EB3F8F /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		06D506D22C52A65400EB3F8F /* CoffeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoffeeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,10 @@
 		06D506AE2C529AF400EB3F8F /* FloatButton */ = {
 			isa = PBXGroup;
 			children = (
+				06D506CC2C52A57600EB3F8F /* Cells */,
+				06D506C92C529CDE00EB3F8F /* Custom Views */,
+				06D506C62C529BD900EB3F8F /* VOs */,
+				06D506C32C529B4200EB3F8F /* Extensions */,
 				06D506AF2C529AF400EB3F8F /* AppDelegate.swift */,
 				06D506B12C529AF400EB3F8F /* SceneDelegate.swift */,
 				06D506B32C529AF400EB3F8F /* ViewController.swift */,
@@ -65,6 +81,40 @@
 				06D506BD2C529AFA00EB3F8F /* Info.plist */,
 			);
 			path = FloatButton;
+			sourceTree = "<group>";
+		};
+		06D506C32C529B4200EB3F8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06D506C42C529B4A00EB3F8F /* UIButton.swift */,
+				06D506CF2C52A5A800EB3F8F /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		06D506C62C529BD900EB3F8F /* VOs */ = {
+			isa = PBXGroup;
+			children = (
+				06D506C72C529BE600EB3F8F /* CoffeeVO.swift */,
+			);
+			path = VOs;
+			sourceTree = "<group>";
+		};
+		06D506C92C529CDE00EB3F8F /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				06D506CA2C529CE800EB3F8F /* FloatingButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		06D506CC2C52A57600EB3F8F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D506D12C52A65400EB3F8F /* CoffeeCell.swift */,
+				06D506D22C52A65400EB3F8F /* CoffeeCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +178,7 @@
 				06D506B92C529AFA00EB3F8F /* Assets.xcassets in Resources */,
 				06D506BC2C529AFA00EB3F8F /* Base in Resources */,
 				06D506B72C529AF400EB3F8F /* Base in Resources */,
+				06D506D42C52A65400EB3F8F /* CoffeeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D506C82C529BE600EB3F8F /* CoffeeVO.swift in Sources */,
+				06D506D02C52A5A800EB3F8F /* Double.swift in Sources */,
 				06D506B42C529AF400EB3F8F /* ViewController.swift in Sources */,
+				06D506D32C52A65400EB3F8F /* CoffeeCell.swift in Sources */,
 				06D506B02C529AF400EB3F8F /* AppDelegate.swift in Sources */,
 				06D506B22C529AF400EB3F8F /* SceneDelegate.swift in Sources */,
+				06D506C52C529B4A00EB3F8F /* UIButton.swift in Sources */,
+				06D506CB2C529CE800EB3F8F /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
